@@ -36,7 +36,7 @@ namespace Course.Entities
             double sum = BaseSalary;
             foreach (HourContract contract in Contracts)
             {
-                if (contract.Date.Year == yeah && contract.Date.Month == month)
+                if (contract.Date.Year == year && contract.Date.Month == month)
                 {
                     sum += contract.TotalValue();
                 }
