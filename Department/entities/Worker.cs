@@ -31,7 +31,7 @@ namespace Course.Entities
             Contracts.Remove(contract);
         }
 
-        public double Income(int yeah, int month)
+        public double Income(int year, int month)
         {
             double sum = BaseSalary;
             foreach (HourContract contract in Contracts)
