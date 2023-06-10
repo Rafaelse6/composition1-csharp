@@ -13,7 +13,7 @@ namespace Course.Entities
         public HourContract(DateTime date, double valuePerHour, int hours)
         {
             Date = date;
-            valuePerHour = ValuePerHour;
+            ValuePerHour = valuePerHour;
             Hours = hours;
         }
 
